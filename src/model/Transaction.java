@@ -62,7 +62,7 @@ public class Transaction {
     @Override
     public String toString() {
         return String.format("[%s] %.2f€ | %s | %s",
-                isIncome ? "Income" : "Exit",
+                isIncome ? "Income" : "Expenses",
                 amount,
                 category,
                 date.toString()
